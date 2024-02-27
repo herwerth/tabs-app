@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "tabs-app:build:production"
+              "buildTarget": "tabs-app:build:production"
             },
             "development": {
-              "browserTarget": "tabs-app:build:development"
+              "buildTarget": "tabs-app:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "tabs-app:build"
+            "buildTarget": "tabs-app:build"
           }
         },
         "test": {
