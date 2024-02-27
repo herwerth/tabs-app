@@ -8,6 +8,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TabsComponent } from './tabs/tabs.component';
 import { FormsModule, ReactiveFormsModule} from '@angular/forms';
+import {NgFor} from '@angular/common';
 
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatButtonModule} from '@angular/material/button';
@@ -31,6 +32,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
     ReactiveFormsModule,
     MatButtonModule,
     MatCheckboxModule,
+    NgFor
 
   ],
   providers: [],
